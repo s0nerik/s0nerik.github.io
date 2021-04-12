@@ -15,11 +15,11 @@ const RESOURCES = {
 "assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
 "assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
 "assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
-"assets/NOTICES": "a8a2f43759c88e98eeb28c68a47cc67f",
+"assets/NOTICES": "3512b8ee56de8343d86a936b80eacd1d",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "4218cad87065b97d1797c4c027503e1d",
 "assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6",
-"main.dart.js": "3ad361767b338540fb7759d987591f4c",
+"main.dart.js": "0e69a23ee790ddc3d3ede1f38db5399a",
 "version.json": "4641d1146fd317684f86168240a51f9e"
 };
 
