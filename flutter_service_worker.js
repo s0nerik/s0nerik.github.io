@@ -4,23 +4,24 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "4641d1146fd317684f86168240a51f9e",
-"main.dart.js": "037732cf159c7ea0cf28b06408f88116",
-"assets/NOTICES": "72480ab8142676540d47c9526ddf3f2d",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/AssetManifest.json": "4218cad87065b97d1797c4c027503e1d",
-"assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
-"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
-"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
-"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
-"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
-"assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6",
+"main.dart.js": "04aab9411e5a9566f3828fa7a7001ef5",
 "index.html": "3bec37987e603ce424d85ca0e366753b",
-"/": "3bec37987e603ce424d85ca0e366753b"
+"/": "3bec37987e603ce424d85ca0e366753b",
+"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
+"assets/packages/resume/assets/resume.pdf": "4b8414f9412d34e7f129821cd90bc3a7",
+"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
+"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
+"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
+"assets/AssetManifest.json": "c5cd04b622eae6c61e723f62e70842ef",
+"assets/NOTICES": "aab0d5a2d1cc66c2bcbbea930e472b4b",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -38,7 +39,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
