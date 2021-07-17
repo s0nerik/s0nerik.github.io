@@ -3,25 +3,25 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "4641d1146fd317684f86168240a51f9e",
-"main.dart.js": "04aab9411e5a9566f3828fa7a7001ef5",
+  "main.dart.js": "5aebde625c26963db644af859ed46e64",
 "index.html": "3bec37987e603ce424d85ca0e366753b",
 "/": "3bec37987e603ce424d85ca0e366753b",
-"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
-"assets/packages/resume/assets/resume.pdf": "4b8414f9412d34e7f129821cd90bc3a7",
-"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
-"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
-"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
 "assets/packages/common/lib/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
 "assets/packages/common/lib/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
+"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
+"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
 "assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
-"assets/AssetManifest.json": "c5cd04b622eae6c61e723f62e70842ef",
+"assets/packages/resume/assets/resume.pdf": "b65529cd54e01aa3b0ad808fbb0e53c2",
+"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
 "assets/NOTICES": "aab0d5a2d1cc66c2bcbbea930e472b4b",
+"assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6"
+"assets/AssetManifest.json": "c5cd04b622eae6c61e723f62e70842ef",
+"version.json": "4641d1146fd317684f86168240a51f9e"
 };
 
 // The application shell files that are downloaded before a service worker can
