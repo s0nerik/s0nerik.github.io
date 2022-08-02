@@ -3,36 +3,36 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6",
-"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
-"assets/packages/resume/assets/resume.pdf": "f7211e8f14b0f3ac0f8edb136bd72632",
-"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
-"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
-"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
-"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
-"assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
-"assets/AssetManifest.json": "c5cd04b622eae6c61e723f62e70842ef",
-"assets/NOTICES": "7e086b6e09883ba93faa5d40c997573b",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+  "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "index.html": "d74436b45e6490dc8bce46f05dc1c056",
 "/": "d74436b45e6490dc8bce46f05dc1c056",
+"main.dart.js": "91d5978a231c1e5a27913317f40bdaef",
 "version.json": "d9ec20693137e21c0b98330a05119454",
-"main.dart.js": "be6ae4bb222fbed0c07409bf45d96447",
-"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
-"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
-"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
-"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb"
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"assets/FontManifest.json": "cd1325b0e701b8eafd5898f9c72287d6",
+"assets/NOTICES": "34c624bc609d2e971d3189c7d0fba21d",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/common/lib/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/common/assets/fonts/SourceSansPro-Bold.ttf": "8669b8706bbbdd1482e2fccc4ed96850",
+"assets/packages/common/assets/fonts/SourceSansPro-SemiBold.ttf": "83476a890be79f84e97b792c9c40d743",
+"assets/packages/common/assets/fonts/SourceSansPro-Light.ttf": "81cd217e4a8160a930c6d5fb8d1e8e82",
+"assets/packages/common/assets/fonts/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
+"assets/packages/resume/assets/resume.pdf": "728368ccee8eccea2f365551fa93fe1a",
+"assets/packages/resume/assets/photo.jpeg": "be50b0a6de44eb2b38a750fd8b0dce1d",
+"assets/packages/mdi/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
+"assets/AssetManifest.json": "c5cd04b622eae6c61e723f62e70842ef"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
