@@ -39036,7 +39036,7 @@ I(a){return B.NH}}
 A.QW.prototype={
 I(a){var s="Senior Software Engineer",r="Remote",q="September 2024",p="July 2021",o="Kyiv, Ukraine",n="July 2019",m=a.a0(t.Q).f,l=$.iO(),k=t.v,j=t.C,i=A.et(j.a(a.bq(k)).c8(0,a,l),a)?4:6
 l=A.et(j.a(a.bq(k)).c8(0,a,l),a)?4:12
-return A.z8(A.a([A.tQ("JoyLabs Ventures",q,r,s,"Present"),A.tQ("Memo",p,r,s,q),A.tQ("Self-employed (short-term contracts)","March 2020",r,"Full-Stack Software Engineer","Present"),A.tQ("UAPAY","December 2019",o,"Flutter Team Lead",p),A.tQ("GlobalLogic",n,o,"Lead Cross-Platform Mobile Engineer","April 2020"),A.tQ("Relevant Software","April 2019","Lviv, Ukraine","Senior Mobile Developer",n),A.tQ("Master of Code Global","March 2014","Cherkasy, Ukraine","Android Developer","March 2019")],t.p),i,m.c.r,B.KS,l,"Employment History")}}
+return A.z8(A.a([A.tQ("JoyLabs Ventures",q,r,s,"Present"),A.tQ("Memo",p,r,s,q),A.tQ("Self-employed","March 2020",r,"Full-Stack Software Engineer","Present"),A.tQ("UAPAY","December 2019",o,"Flutter Team Lead",p),A.tQ("GlobalLogic",n,o,"Lead Cross-Platform Mobile Engineer","April 2020"),A.tQ("Relevant Software","April 2019","Lviv, Ukraine","Senior Mobile Developer",n),A.tQ("Master of Code Global","March 2014","Cherkasy, Ukraine","Android Developer","March 2019")],t.p),i,m.c.r,B.KS,l,"Employment History")}}
 A.Ol.prototype={
 I(a){var s=this,r=null,q=A.a([new A.n_(A.dx(s.c,r,r,r,r),s.f,s.r,s.e,s.d,r)],t.p)
 return A.f8(q,B.ba,B.X,0)}}
