@@ -39032,7 +39032,7 @@ q.push(new A.QU(s))
 q.push(new A.QX(s))
 return A.f8(q,B.W,B.X,16)}}
 A.QY.prototype={
-I(a){return B.NE}}
+I(a){return B.NH}}
 A.QW.prototype={
 I(a){var s="Senior Software Engineer",r="Remote",q="September 2024",p="July 2021",o="Kyiv, Ukraine",n="July 2019",m=a.a0(t.Q).f,l=$.iO(),k=t.v,j=t.C,i=A.et(j.a(a.bq(k)).c8(0,a,l),a)?4:6
 l=A.et(j.a(a.bq(k)).c8(0,a,l),a)?4:12
@@ -39041,9 +39041,9 @@ A.Ol.prototype={
 I(a){var s=this,r=null,q=A.a([new A.n_(A.dx(s.c,r,r,r,r),s.f,s.r,s.e,s.d,r)],t.p)
 return A.f8(q,B.ba,B.X,0)}}
 A.QT.prototype={
-I(a){return B.NH}}
+I(a){return B.NG}}
 A.QV.prototype={
-I(a){return B.NF}}
+I(a){return B.NE}}
 A.QU.prototype={
 I(a){var s=null,r="http://geekhub.ck.ua",q="geekhub.ck.ua",p=$.iO(),o=t.v,n=t.C,m=!A.et(n.a(a.bq(o)).c8(0,a,p),a),l=!A.et(n.a(a.bq(o)).c8(0,a,p),a)
 p=t.p
@@ -39148,7 +39148,7 @@ m=p.f
 if(m!=null)n.push(A.dx(m,o,A.fv(o,o,J.ct(a.a0(r).f.b.b.a,A.e0(a)).e,o,o,o,o,o,o,o,o,a.a0(r).f.c.c,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.fw,o))
 return A.f8(n,B.bb,B.X,0)}}
 A.S4.prototype={
-I(a){return B.NG}}
+I(a){return B.NF}}
 A.hS.prototype={
 I(a){return A.kI(A.a([A.o9(this.c,J.ct(a.a0(t.Q).f.b.b.a,A.e0(a)).x,16),B.PE,this.d],t.p),B.W,B.ap,B.X)}}
 A.vU.prototype={
@@ -79419,15 +79419,11 @@ B.vT=new A.t1(3,"bottom")
 B.NB=new A.t2(null,null,null,null,null,null,null,null,null,null,null)
 B.NC=new A.z6(null,null,null,null,null,null,null,null,null,null,null,null)
 B.ND=new A.z7(null,null,null,null,null,null,null,null,null,null)
-B.L1=new A.cG(983044,"MaterialDesignIcons","flutter_mdi_icons",!1)
-B.Uj=new A.eJ("Passionate software engineer with 10+ years of experience developing apps and other software.",null,null,null,null,null,null)
-B.Ip=A.a(s([B.Uj]),t.p)
-B.NE=new A.mk(B.L1,"Profile",8,4,null,B.Ip,null)
 B.KT=new A.cG(984180,"MaterialDesignIcons","flutter_mdi_icons",!1)
 B.Uh=new A.eJ("Bachelor's in Software Engineering",null,null,null,null,null,null)
 B.WZ=new A.n_(B.Uh,"September 2013","May 2017","Cherkasy, Ukraine","Bohdan Khmelnytsky National University",null)
 B.HL=A.a(s([B.WZ]),t.p)
-B.NF=new A.mk(B.KT,"Education",8,4,null,B.HL,null)
+B.NE=new A.mk(B.KT,"Education",8,4,null,B.HL,null)
 B.L0=new A.cG(986030,"MaterialDesignIcons","flutter_mdi_icons",!1)
 B.Ui=new A.eJ("Open-source software",null,null,null,null,null,null)
 B.We=new A.hS(B.L0,B.Ui,null)
@@ -79444,14 +79440,18 @@ B.KU=new A.cG(987908,"MaterialDesignIcons","flutter_mdi_icons",!1)
 B.Ue=new A.eJ("Skiing",null,null,null,null,null,null)
 B.Wd=new A.hS(B.KU,B.Ue,null)
 B.Hw=A.a(s([B.We,B.Wc,B.Wb,B.Wa,B.Wd]),t.p)
-B.NG=new A.mk(null,"Hobbies",8,4,null,B.Hw,null)
+B.NF=new A.mk(null,"Hobbies",8,4,null,B.Hw,null)
 B.KO=new A.cG(988993,"MaterialDesignIcons","flutter_mdi_icons",!1)
 B.Uc=new A.eJ("Actively participated in 20+ production apps development.",null,null,null,null,null,null)
 B.Ug=new A.eJ("Developed mobile applications with 1,000,000+ downloads.",null,null,null,null,null,null)
 B.Ud=new A.eJ("Developed a localization tool used by apps with 100,000+ downloads.",null,null,null,null,null,null)
 B.Ua=new A.eJ("Got my implementation featured among the best ones in Flutter Clock Highlight Reel.",null,null,null,null,null,null)
 B.Hp=A.a(s([B.Uc,B.Ug,B.Ud,B.Ua]),t.p)
-B.NH=new A.mk(B.KO,"Career Highlights",4,4,null,B.Hp,null)
+B.NG=new A.mk(B.KO,"Career Highlights",4,4,null,B.Hp,null)
+B.L1=new A.cG(983044,"MaterialDesignIcons","flutter_mdi_icons",!1)
+B.Uj=new A.eJ("Passionate software engineer with 10+ years of experience developing apps and other software.",null,null,null,null,null,null)
+B.Ip=A.a(s([B.Uj]),t.p)
+B.NH=new A.mk(B.L1,"About me",8,4,null,B.Ip,null)
 B.NI=new A.z9(null,null)
 B.NN=new A.jo(3,"selectAll")
 B.NJ=new A.KG(B.NN)
